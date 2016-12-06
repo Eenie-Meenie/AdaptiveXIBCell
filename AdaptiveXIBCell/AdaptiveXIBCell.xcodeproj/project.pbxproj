@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		A18FF05A1DF6595400130A4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF0591DF6595400130A4B /* main.m */; };
 		A18FF05D1DF6595400130A4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF05C1DF6595400130A4B /* AppDelegate.m */; };
-		A18FF0601DF6595400130A4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF05F1DF6595400130A4B /* ViewController.m */; };
-		A18FF0631DF6595400130A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18FF0611DF6595400130A4B /* Main.storyboard */; };
 		A18FF0661DF6595400130A4B /* AdaptiveXIBCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A18FF0641DF6595400130A4B /* AdaptiveXIBCell.xcdatamodeld */; };
 		A18FF0681DF6595400130A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18FF0671DF6595400130A4B /* Assets.xcassets */; };
 		A18FF06B1DF6595400130A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18FF0691DF6595400130A4B /* LaunchScreen.storyboard */; };
+		A18FF0731DF65AEA00130A4B /* ModelList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A18FF0721DF65AEA00130A4B /* ModelList.plist */; };
+		A18FF0761DF65B1C00130A4B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF0751DF65B1C00130A4B /* BaseViewController.m */; };
+		A18FF07A1DF65B4E00130A4B /* ApaptiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF0781DF65B4E00130A4B /* ApaptiveTableViewCell.m */; };
+		A18FF07B1DF65B4E00130A4B /* ApaptiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18FF0791DF65B4E00130A4B /* ApaptiveTableViewCell.xib */; };
+		A18FF07E1DF65B5600130A4B /* AdaptiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF07D1DF65B5600130A4B /* AdaptiveModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +24,18 @@
 		A18FF0591DF6595400130A4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A18FF05B1DF6595400130A4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A18FF05C1DF6595400130A4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A18FF05E1DF6595400130A4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A18FF05F1DF6595400130A4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A18FF0621DF6595400130A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A18FF0651DF6595400130A4B /* AdaptiveXIBCell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdaptiveXIBCell.xcdatamodel; sourceTree = "<group>"; };
 		A18FF0671DF6595400130A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A18FF06A1DF6595400130A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A18FF06C1DF6595400130A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18FF0721DF65AEA00130A4B /* ModelList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModelList.plist; sourceTree = "<group>"; };
+		A18FF0741DF65B1C00130A4B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A18FF0751DF65B1C00130A4B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A18FF0771DF65B4E00130A4B /* ApaptiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApaptiveTableViewCell.h; sourceTree = "<group>"; };
+		A18FF0781DF65B4E00130A4B /* ApaptiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApaptiveTableViewCell.m; sourceTree = "<group>"; };
+		A18FF0791DF65B4E00130A4B /* ApaptiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApaptiveTableViewCell.xib; sourceTree = "<group>"; };
+		A18FF07C1DF65B5600130A4B /* AdaptiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveModel.h; sourceTree = "<group>"; };
+		A18FF07D1DF65B5600130A4B /* AdaptiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +70,13 @@
 			children = (
 				A18FF05B1DF6595400130A4B /* AppDelegate.h */,
 				A18FF05C1DF6595400130A4B /* AppDelegate.m */,
-				A18FF05E1DF6595400130A4B /* ViewController.h */,
-				A18FF05F1DF6595400130A4B /* ViewController.m */,
-				A18FF0611DF6595400130A4B /* Main.storyboard */,
+				A18FF0741DF65B1C00130A4B /* BaseViewController.h */,
+				A18FF0751DF65B1C00130A4B /* BaseViewController.m */,
+				A18FF0771DF65B4E00130A4B /* ApaptiveTableViewCell.h */,
+				A18FF0781DF65B4E00130A4B /* ApaptiveTableViewCell.m */,
+				A18FF0791DF65B4E00130A4B /* ApaptiveTableViewCell.xib */,
+				A18FF07C1DF65B5600130A4B /* AdaptiveModel.h */,
+				A18FF07D1DF65B5600130A4B /* AdaptiveModel.m */,
 				A18FF0671DF6595400130A4B /* Assets.xcassets */,
 				A18FF0691DF6595400130A4B /* LaunchScreen.storyboard */,
 				A18FF06C1DF6595400130A4B /* Info.plist */,
@@ -77,6 +89,7 @@
 		A18FF0581DF6595400130A4B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A18FF0721DF65AEA00130A4B /* ModelList.plist */,
 				A18FF0591DF6595400130A4B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -142,7 +155,8 @@
 			files = (
 				A18FF06B1DF6595400130A4B /* LaunchScreen.storyboard in Resources */,
 				A18FF0681DF6595400130A4B /* Assets.xcassets in Resources */,
-				A18FF0631DF6595400130A4B /* Main.storyboard in Resources */,
+				A18FF0731DF65AEA00130A4B /* ModelList.plist in Resources */,
+				A18FF07B1DF65B4E00130A4B /* ApaptiveTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,24 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A18FF0601DF6595400130A4B /* ViewController.m in Sources */,
 				A18FF0661DF6595400130A4B /* AdaptiveXIBCell.xcdatamodeld in Sources */,
+				A18FF07E1DF65B5600130A4B /* AdaptiveModel.m in Sources */,
+				A18FF0761DF65B1C00130A4B /* BaseViewController.m in Sources */,
 				A18FF05D1DF6595400130A4B /* AppDelegate.m in Sources */,
 				A18FF05A1DF6595400130A4B /* main.m in Sources */,
+				A18FF07A1DF65B4E00130A4B /* ApaptiveTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A18FF0611DF6595400130A4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A18FF0621DF6595400130A4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A18FF0691DF6595400130A4B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

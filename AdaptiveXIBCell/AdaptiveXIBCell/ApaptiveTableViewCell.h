@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ApaptiveTableViewCell.h
 //  AdaptiveXIBCell
 //
 //  Created by bnysc on 2016/12/6.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ApaptiveTableViewCell : UITableViewCell
 
 @end
-
