@@ -53,12 +53,6 @@
         self.pictureHeight.constant = 0;
         self.pictureBottom.constant = 0;
     }
-    
-//    // 设置控件的frame
-//    self.nameLabel.frame = self.model.nameFrame;
-//    self.text_Label.frame = self.model.textFrame;
-//    self.picthreView.frame = self.model.pictureFrame;
-
 }
 
 @end
