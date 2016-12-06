@@ -1,5 +1,5 @@
 //
-//  ApaptiveTableViewCell.h
+//  AdaptiveTableViewCell.h
 //  AdaptiveXIBCell
 //
 //  Created by bnysc on 2016/12/6.
@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class AdaptiveModel;
+
 @interface AdaptiveTableViewCell : UITableViewCell
 
+@property (nonatomic, strong) AdaptiveModel *model; // 模型
+
 @end
+

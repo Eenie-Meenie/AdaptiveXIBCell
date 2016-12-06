@@ -15,9 +15,9 @@
 		A18FF06B1DF6595400130A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18FF0691DF6595400130A4B /* LaunchScreen.storyboard */; };
 		A18FF0731DF65AEA00130A4B /* ModelList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A18FF0721DF65AEA00130A4B /* ModelList.plist */; };
 		A18FF0761DF65B1C00130A4B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF0751DF65B1C00130A4B /* BaseViewController.m */; };
-		A18FF07A1DF65B4E00130A4B /* AdaptiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF0781DF65B4E00130A4B /* AdaptiveTableViewCell.m */; };
-		A18FF07B1DF65B4E00130A4B /* ApaptiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18FF0791DF65B4E00130A4B /* ApaptiveTableViewCell.xib */; };
 		A18FF07E1DF65B5600130A4B /* AdaptiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF07D1DF65B5600130A4B /* AdaptiveModel.m */; };
+		A18FF0821DF6660400130A4B /* AdaptiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FF0801DF6660400130A4B /* AdaptiveTableViewCell.m */; };
+		A18FF0831DF6660400130A4B /* AdaptiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18FF0811DF6660400130A4B /* AdaptiveTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +35,11 @@
 		A18FF0721DF65AEA00130A4B /* ModelList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModelList.plist; sourceTree = "<group>"; };
 		A18FF0741DF65B1C00130A4B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		A18FF0751DF65B1C00130A4B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		A18FF0771DF65B4E00130A4B /* AdaptiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveTableViewCell.h; sourceTree = "<group>"; };
-		A18FF0781DF65B4E00130A4B /* AdaptiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveTableViewCell.m; sourceTree = "<group>"; };
-		A18FF0791DF65B4E00130A4B /* ApaptiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApaptiveTableViewCell.xib; sourceTree = "<group>"; };
 		A18FF07C1DF65B5600130A4B /* AdaptiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveModel.h; sourceTree = "<group>"; };
 		A18FF07D1DF65B5600130A4B /* AdaptiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveModel.m; sourceTree = "<group>"; };
+		A18FF07F1DF6660400130A4B /* AdaptiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveTableViewCell.h; sourceTree = "<group>"; };
+		A18FF0801DF6660400130A4B /* AdaptiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveTableViewCell.m; sourceTree = "<group>"; };
+		A18FF0811DF6660400130A4B /* AdaptiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdaptiveTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +96,9 @@
 				A18FF05C1DF6595400130A4B /* AppDelegate.m */,
 				A18FF0741DF65B1C00130A4B /* BaseViewController.h */,
 				A18FF0751DF65B1C00130A4B /* BaseViewController.m */,
-				A18FF0771DF65B4E00130A4B /* AdaptiveTableViewCell.h */,
-				A18FF0781DF65B4E00130A4B /* AdaptiveTableViewCell.m */,
-				A18FF0791DF65B4E00130A4B /* ApaptiveTableViewCell.xib */,
+				A18FF07F1DF6660400130A4B /* AdaptiveTableViewCell.h */,
+				A18FF0801DF6660400130A4B /* AdaptiveTableViewCell.m */,
+				A18FF0811DF6660400130A4B /* AdaptiveTableViewCell.xib */,
 				A18FF07C1DF65B5600130A4B /* AdaptiveModel.h */,
 				A18FF07D1DF65B5600130A4B /* AdaptiveModel.m */,
 				A18FF0671DF6595400130A4B /* Assets.xcassets */,
@@ -183,7 +183,7 @@
 				A18FF06B1DF6595400130A4B /* LaunchScreen.storyboard in Resources */,
 				A18FF0681DF6595400130A4B /* Assets.xcassets in Resources */,
 				A18FF0731DF65AEA00130A4B /* ModelList.plist in Resources */,
-				A18FF07B1DF65B4E00130A4B /* ApaptiveTableViewCell.xib in Resources */,
+				A18FF0831DF6660400130A4B /* AdaptiveTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,9 +245,9 @@
 				A18FF0661DF6595400130A4B /* AdaptiveXIBCell.xcdatamodeld in Sources */,
 				A18FF07E1DF65B5600130A4B /* AdaptiveModel.m in Sources */,
 				A18FF0761DF65B1C00130A4B /* BaseViewController.m in Sources */,
+				A18FF0821DF6660400130A4B /* AdaptiveTableViewCell.m in Sources */,
 				A18FF05D1DF6595400130A4B /* AppDelegate.m in Sources */,
 				A18FF05A1DF6595400130A4B /* main.m in Sources */,
-				A18FF07A1DF65B4E00130A4B /* AdaptiveTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

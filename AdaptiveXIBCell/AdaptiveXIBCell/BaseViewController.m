@@ -25,12 +25,12 @@ static NSString *identifier = @"AdaptiveTableViewCell";
 @implementation BaseViewController
 
 #pragma mark - 懒加载
-//- (NSArray *)dataSource {
-//    if (!_dataSource) {
-//        self.dataSource = [AdaptiveModel mj_objectArrayWithFilename:@"ModelList.plist"];
-//    }
-//    return _dataSource;
-//}
+- (NSArray *)dataSource {
+    if (!_dataSource) {
+        self.dataSource = [AdaptiveModel mj_objectArrayWithFilename:@"ModelList.plist"];
+    }
+    return _dataSource;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -39,6 +39,15 @@ static NSString *identifier = @"AdaptiveTableViewCell";
     
     self.tableView = [[UITableView alloc] initWithFrame:[UIScreen mainScreen].bounds style:UITableViewStylePlain];
 //    [self.tableView registerClass:[AdaptiveTableViewCell class] forCellReuseIdentifier:identifier];
+    [self.tableView registerNib:[UINib nibWithNibName:@"AdaptiveTableViewCell" bundle:nil] forCellReuseIdentifier:@"AdaptiveCell"];
+    
+    
+    // self-sizing(iOS8以后才支持)
+    // 设置tableView所有的cell的真实高度是自动计算的(根据设置的约束)
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    // 设置tableView的估算高度
+    self.tableView.estimatedRowHeight = 44;
+    
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
@@ -56,15 +65,15 @@ static NSString *identifier = @"AdaptiveTableViewCell";
     return 1;
 }
 
-// 设置单元格高度
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+//// 设置单元格高度
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
 //    
-//    AdaptiveModel *model = self.dataSource[indexPath.row];
-//  
-//    return model.cellHeight;
-    return 200;
-}
+////    
+////    AdaptiveModel *model = self.dataSource[indexPath.row];
+////  
+////    return model.cellHeight;
+//    return 200;
+//}
 
 // 设置单元格行数
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -73,11 +82,10 @@ static NSString *identifier = @"AdaptiveTableViewCell";
 
 // 设置单元格
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    AdaptiveTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
-//    // 传递数组模型
-//    cell.model = self.dataSource[indexPath.row];
-//    return cell;
-    return nil;
+    AdaptiveTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AdaptiveCell" forIndexPath:indexPath];
+    // 传递数组模型
+    cell.model = self.dataSource[indexPath.row];
+    return cell;
 }
 
 
