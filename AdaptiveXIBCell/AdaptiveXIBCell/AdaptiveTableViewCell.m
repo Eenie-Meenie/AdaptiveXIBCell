@@ -6,9 +6,9 @@
 //  Copyright © 2016年 HB. All rights reserved.
 //
 
-#import "ApaptiveTableViewCell.h"
+#import "AdaptiveTableViewCell.h"
 
-@implementation ApaptiveTableViewCell
+@implementation AdaptiveTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

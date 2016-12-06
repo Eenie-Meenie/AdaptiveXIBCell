@@ -7,9 +7,9 @@
 //
 
 #import "BaseViewController.h"
-//#import <MJExtension.h>
-//#import "AdaptiveModel.h"
-//#import "AdaptiveTableViewCell.h"
+#import <MJExtension.h>
+#import "AdaptiveModel.h"
+#import "AdaptiveTableViewCell.h"
 
 #define Space 10          // 间距
 

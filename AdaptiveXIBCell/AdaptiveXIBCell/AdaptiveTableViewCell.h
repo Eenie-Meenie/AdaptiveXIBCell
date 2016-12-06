@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ApaptiveTableViewCell : UITableViewCell
+@interface AdaptiveTableViewCell : UITableViewCell
 
 @end
